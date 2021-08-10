@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=MonteCarlo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+.char_poster {
+  height: 300px;
+  width: 300px;
+  border-radius: 0.5em;
+}
+.character_box {
+  display: flex;
+  align-items: center;
+  margin-left: 8vw;
+  margin-top: 8vh;
+  /* border: 2px solid red; */
+  box-shadow: 10px 10px 10px 10px rgba(198, 211, 214, 0.5);
+  border-radius: 0.5em;
+  padding: 2em 5em;
+  margin-right: 10vw;
+}
+.details_heading {
+  margin-top: 3.5vh;
+  margin-left: 8vw;
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+}
+.char_name {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  margin-top: 2vh;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_nick_name {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_birth {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_occapation {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_status {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_portrayed {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_appearence {
+  font-family: "Lobster", cursive;
+  color: lightgreen;
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+.char_details {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  max-width: 20vw;
+  /* gap: 1vh; */
+  /* margin-top: -2vh; */
+}
+.quotes_note {
+  font-family: "MonteCarlo", cursive;
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(250, 14, 242);
+  width: 5vw;
+  /* font-family: 'Lobster', cursive; */
+}
+.character_imge {
+  margin-top: 10vh;
+}
+.char_quotes {
+  margin-left: 4vw;
+}
+.character_imge > h2 {
+  font-family: "Girassol", cursive;
+}
+.char_details > h2 {
+  font-family: "Girassol", cursive;
+}
+.char_quotes > h3 {
+  font-family: "Girassol", cursive;
+}
+.quotes_note {
+  margin-left: 2vw;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .character_box {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    align-items: center;
+    margin-top: 2vh;
+  }
+  .char_details {
+    margin-right: 53vw;
+    margin-top: 1vh;
+  }
+  .char_poster {
+    height: 250px;
+    width: 250px;
+    margin-top: -10vh;
+  }
+  .char_name {
+    font-size: 25px;
+  }
+  .character_imge > h2 {
+    font-size: 23px;
+    margin-top: 1vh;
+  }
+  .char_nick_name {
+    font-size: 14px;
+  }
+  .char_details > h2 {
+    font-size: 23px;
+  }
+  .char_birth {
+    font-size: 20px;
+  }
+  .char_occapation {
+    font-size: 20px;
+  }
+  .char_status {
+    font-size: 20px;
+  }
+  .char_portrayed {
+    font-size: 20px;
+  }
+  .char_appearence {
+    font-size: 20px;
+  }
+  .char_quotes {
+    margin-left: -14vw;
+    margin-top: 1vh;
+  }
+  .char_quotes > h3 {
+    font-size: 23px;
+  }
+  .quotes_note {
+    font-size: 20px;
+  }
+  #previous_btn {
+    padding: 0.6em 2em;
+    font-size: 12px;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .character_box {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    align-items: center;
+    margin-top: 2vh;
+  }
+  .char_details {
+    margin-right: 53vw;
+    margin-top: 1vh;
+  }
+  .char_poster {
+    height: 250px;
+    width: 250px;
+    margin-top: -10vh;
+  }
+  .char_name {
+    font-size: 25px;
+  }
+  .character_imge > h2 {
+    font-size: 23px;
+    margin-top: 1vh;
+  }
+  .char_nick_name {
+    font-size: 14px;
+  }
+  .char_details > h2 {
+    font-size: 23px;
+  }
+  .char_birth {
+    font-size: 20px;
+  }
+  .char_occapation {
+    font-size: 20px;
+  }
+  .char_status {
+    font-size: 20px;
+  }
+  .char_portrayed {
+    font-size: 20px;
+  }
+  .char_appearence {
+    font-size: 20px;
+  }
+  .char_quotes {
+    margin-left: -14vw;
+    margin-top: 1vh;
+  }
+  .char_quotes > h3 {
+    font-size: 23px;
+  }
+  .quotes_note {
+    font-size: 23px;
+  }
+  #previous_btn {
+    padding: 0.6em 2em;
+    font-size: 12px;
+  }
+}
